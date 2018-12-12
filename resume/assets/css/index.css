@@ -1,0 +1,44 @@
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+#main_container{
+	background: rgba(34, 57, 57, 1);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+#main_container img{
+	width: 200px;
+	min-width: 200px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	margin-top: 3em;
+}
+
+#text_content h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+#text_content h2 {
+	color: #fff;
+	letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#style_comming_soon{
+	margin-top: 4em;
+}
+
+#style_comming_soon h2 {
+	font-size: 1.0em;
+	color: #fff;
+	letter-spacing: 5px;
+    text-transform: uppercase;	
+}
