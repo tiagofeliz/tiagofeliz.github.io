@@ -1,0 +1,728 @@
+@media screen and (min-width: 10px) { /*Generico*/
+	@media screen and (max-width: 1000px) { 
+		#header{
+	    	height: 4%;
+		}	
+
+		#main_container #footer span:first-child{
+			display: none;
+		}
+
+		#main_container #img_content img{
+			width: 10em;
+			min-width: 10em;
+		}
+
+		#text_content #hey{
+		    display: flex;
+		    flex-direction: column;
+		}
+
+		#text_content #hey p {
+			text-align: center;
+		    font-size: 1.5em;
+			margin: 5px;
+		}
+
+		#text_content #under span {
+		    font-size: 1em;
+		    text-align: center;
+		}
+
+			/*ABOUT*/
+
+		#about #title {
+			font-size: 2em;
+	    	padding-bottom: 10px;
+	    }
+
+	    #about #content {
+		    font-size: 0.6em;
+		}
+
+		#about #real_content {
+			margin: 0 1em 0 1em;
+			padding-block-start: 2em;
+		}
+
+			/*SKEWS*/
+
+		#skews #jornal {
+			top: -70%;
+			height: unset;
+		}
+
+		#skews #jornal .column {
+		    display: block;
+		    margin: unset;
+		    height: unset;
+		    width: unset;
+		}
+	}
+}
+
+@media screen and (min-width: 300px) { /*Galaxy s5*/
+	@media screen and (max-width: 360px) {
+		@media screen and (min-height: 600px) {
+			@media screen and (max-height: 660px) {
+				#header{
+			    	height: 4%;
+				}	
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 10em;
+					min-width: 10em;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.6em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 2em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 400px) { /*Pixel 2*/ /*iPhone 6/7/8 Plus*/
+	@media screen and (max-width: 460px) {
+		@media screen and (min-height: 700px) {
+			@media screen and (max-height: 760px) {
+				#header{
+			    	height: 4%;
+				}	
+
+				#main_container #content{
+					margin-top: 120px;
+				}
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 200px;
+					min-width: 200px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.7em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 4em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 400px) { /*Pixel 2 XL*/
+	@media screen and (max-width: 460px) {
+		@media screen and (min-height: 800px) {
+			@media screen and (max-height: 860px) {
+				#header{
+			    	height: 4%;
+				}	
+
+				#main_container #content{
+					margin-top: 140px;
+				}
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 220px;
+					min-width: 220px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.8em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 4em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+
+				#jornal .column .title{
+					font-size: 2em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 1.3em;
+				}
+
+				#jornal .column .text{
+					font-size: 1.2em;
+				}
+			}
+		}
+	}	
+}
+
+@media screen and (min-width: 300px) { /*iPhone 5/SE*/
+	@media screen and (max-width: 360px) {
+		@media screen and (min-height: 500px) {
+			@media screen and (max-height: 570px) {
+				#header{
+			    	height: 4%;
+			    }
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 160px;
+					min-width: 160px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.2em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 0.8em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 1.6em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.6em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 2em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+					padding: 70px 25px;  
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+
+				#jornal .column .title{
+					font-size: 1.8em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 1.3em;
+				}
+
+				#jornal .column .text{
+					font-size: 1em;
+				}
+	    	}
+		}	
+	}
+}
+
+@media screen and (min-width: 360px) { /*iPhone 6/7/8*/
+	@media screen and (max-width: 400px) {
+		@media screen and (min-height: 660px) {
+			@media screen and (max-height: 700px) {
+				#header{
+			    	height: 4%;
+				}	
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 10em;
+					min-width: 10em;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.6em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 4em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+	    	}
+		}	
+	}
+}
+
+@media screen and (min-width: 360px) { /*iPhone X*/
+	@media screen and (max-width: 400px) {
+		@media screen and (min-height: 800px) {
+			@media screen and (max-height: 860px) {
+				#header{
+			    	height: 4%;
+				}
+
+				#main_container #content{
+					margin-top: 140px;
+				}	
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #img_content img{
+					width: 200px;
+					min-width: 200px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 1.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 0.8em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 3em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+
+				#jornal .column .title{
+					font-size: 1.8em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 1.3em;
+				}
+
+				#jornal .column .text{
+					font-size: 1.1em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 760px) { /*iPad*/
+	@media screen and (max-width: 800px) {
+		@media screen and (min-height: 1000px) {
+			@media screen and (max-height: 1060px) {
+				#header{
+			    	height: 4%;
+				}
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #content .section{
+					display: block;
+				}
+
+				#main_container #content{
+					margin-top: 140px;
+				}	
+
+				#main_container #img_content img{
+					width: 300px;
+					min-width: 300px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 2em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1.4em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 2.3em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 1em;
+				    margin: 0 4em 0 4em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 5em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#jornal .column img{
+					width: 6em;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+
+				#jornal .column .title{
+					font-size: 2.5em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 1.8em;
+				}
+
+				#jornal .column .text{
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) { /*iPad Pro*/
+	@media screen and (max-width: 1060px) {
+		@media screen and (min-height: 1300px) {
+			@media screen and (max-height: 1380px) {
+				#header{
+			    	height: 8%;
+				}
+
+				#header .header-component{
+				    margin: 20px;
+				    width: 220px;
+				}
+
+				#header button{
+				    background: transparent;
+				    outline: none;
+				    border: 2px solid rgba(50, 84, 84, 1);
+				    padding: 20px 45px;
+				    font-size: 1.5em;
+				}
+
+				#main_container #footer span:first-child{
+					display: none;
+				}
+
+				#main_container #content .section{
+					display: block;
+				}
+
+				#main_container #content{
+					margin-top: 180px;
+				}	
+
+				#main_container #img_content img{
+					width: 400px;
+					min-width: 400px;
+				}
+
+				#text_content #hey{
+				    display: flex;
+				    flex-direction: column;
+				}
+
+				#text_content #hey p {
+					text-align: center;
+				    font-size: 2.5em;
+					margin: 5px;
+				}
+
+				#text_content #under span {
+				    font-size: 1.8em;
+				    text-align: center;
+				}
+
+					/*ABOUT*/
+
+				#about #title {
+					font-size: 3em;
+			    	padding-bottom: 10px;
+			    }
+
+			    #about #content {
+				    font-size: 1.5em;
+				    margin: 0 4em 0 4em;
+				}
+
+				#about #real_content {
+					margin: 0 1em 0 1em;
+					padding-block-start: 5em;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal {
+					top: -70%;
+					height: unset;
+				}
+
+				#jornal .column img{
+					width: 6em;
+				}
+
+				#skews #jornal .column {
+				    display: block;
+				    margin: unset;
+				    height: unset;
+				    width: unset;
+				}
+
+				#jornal .column .title{
+					font-size: 3em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 2.2em;
+				}
+
+				#jornal .column .text{
+					font-size: 2em;
+				}
+			}
+		}
+	}
+}
+
+	/*FIX*/
+@media screen and (min-width: 1060px) {
+	@media screen and (min-height: 660px) {
+		#header{
+	    	background: unset;
+		}
+
+		#main_container #content{
+			margin-top: 60px;
+		}
+
+		#main_container #img_content img{
+			width: 180px;
+			min-width: 180px;
+		}
+	}
+}
