@@ -1,0 +1,495 @@
+@media screen and (min-height: 10px) { /*Generico*/
+	@media screen and (max-height: 400px) { 
+		#main_container #content{
+			text-align: center;
+		}
+
+		#main_container #img_content img {
+		    width: 120px;
+		    min-width: 120px;
+		    border: 3px solid rgba(41, 51, 71, 1);
+		}
+
+		#text_content{
+			width: 400px;
+		}
+
+		#text_content #hey{
+			margin-bottom: unset;
+		}
+
+		#text_content #hey p {
+		    font-size: 1.2em;
+		    text-align: left;
+		}
+
+		#text_content #under span {
+		    font-size: 0.8em;
+		    text-align: left;
+		}
+
+		#main_container #footer{
+			height: 40%;
+		}
+
+		#main_container #footer span:first-child{
+			display: block;
+			font-size: 0.6em;
+		}
+
+		#main_container #footer span img{
+			width: 2.5em;
+		}
+
+			/*ABOUT*/
+
+		#about #real_content{
+			margin: 0 5em 0 5em;
+			padding-block-start: 2em;
+		}
+
+		#about #title{
+			font-size: 1.5em;
+		}
+
+		#about #content{
+			font-size: 0.5em;
+		}
+
+		#about #content h2{	
+			font-weight: 100;
+		}
+
+			/*SKEWS*/
+
+		#skews #jornal{
+			padding: 30px 20px;
+			display: flex;
+			justify-content: center;
+		}
+
+		#skews #jornal .column{
+			display: inline-block;				    
+		    width: 25%;
+		    text-align: center;
+		    margin: 0 1em 0 1em;
+		    height: 100%;
+		}
+
+		#jornal .column img{
+			width: 2.5em;
+		}
+
+		#jornal .column .title{
+			font-size: 1em;
+		}
+
+		#jornal .column .subtitle{
+			font-size: 0.8em;
+		}
+
+		#jornal .column .text{
+			font-size: 0.6em;
+		}
+	}
+}
+
+@media screen and (min-height: 300px) { /*Galaxy s5*/
+	@media screen and (max-height: 360px) {
+		@media screen and (min-width: 600px) {
+			@media screen and (max-width: 660px) {
+				#main_container #content{
+					text-align: center;
+				}
+
+				#main_container #img_content img {
+				    width: 120px;
+				    min-width: 120px;
+				    border: 3px solid rgba(41, 51, 71, 1);
+				}
+
+				#text_content{
+					width: 400px;
+				}
+
+				#text_content #hey{
+					margin-bottom: unset;
+				}
+
+				#text_content #hey p {
+				    font-size: 1.2em;
+				    text-align: left;
+				}
+
+				#text_content #under span {
+				    font-size: 0.8em;
+				    text-align: left;
+				}
+
+				#main_container #footer{
+					height: 40%;
+				}
+
+				#main_container #footer span:first-child{
+					display: block;
+					font-size: 0.6em;
+				}
+
+				#main_container #footer span img{
+					width: 2.5em;
+				}
+
+					/*ABOUT*/
+
+				#about #real_content{
+					margin: 0 5em 0 5em;
+					padding-block-start: 2em;
+				}
+
+				#about #title{
+					font-size: 1.5em;
+				}
+
+				#about #content{
+					font-size: 0.5em;
+				}
+
+				#about #content h2{	
+					font-weight: 100;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal{
+					padding: 30px 20px;
+					display: flex;
+    				justify-content: center;
+				}
+
+				#skews #jornal .column{
+					display: inline-block;				    
+				    width: 25%;
+				    text-align: center;
+				    margin: 0 1em 0 1em;
+				    height: 100%;
+				}
+
+				#jornal .column img{
+					width: 2.5em;
+				}
+
+				#jornal .column .title{
+					font-size: 1em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 0.8em;
+				}
+
+				#jornal .column .text{
+					font-size: 0.6em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-height: 400px) { /*Pixel 2*/
+	@media screen and (max-height: 460px) {
+		@media screen and (min-width: 700px) {
+			@media screen and (max-width: 760px) {
+				#main_container #content{
+					text-align: center;
+				}
+
+				#main_container #img_content img {
+				    width: 120px;
+				    min-width: 120px;
+				    border: 3px solid rgba(41, 51, 71, 1);
+				}
+
+				#text_content{
+					width: 400px;
+				}
+
+				#text_content #hey{
+					margin-bottom: unset;
+				}
+
+				#text_content #hey p {
+				    font-size: 1.2em;
+				    text-align: left;
+				}
+
+				#text_content #under span {
+				    font-size: 0.8em;
+				    text-align: left;
+				}
+
+				#main_container #footer{
+					height: 40%;
+				}
+
+				#main_container #footer span:first-child{
+					display: block;
+					font-size: 0.6em;
+				}
+
+				#main_container #footer span img{
+					width: 2.5em;
+				}
+
+					/*ABOUT*/
+
+				#about #real_content{
+					margin: 0 5em 0 5em;
+					padding-block-start: 2em;
+				}
+
+				#about #title{
+					font-size: 1.5em;
+				}
+
+				#about #content{
+					font-size: 0.5em;
+				}
+
+				#about #content h2{	
+					font-weight: 100;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal{
+					padding: 30px 20px;
+					display: flex;
+    				justify-content: center;
+				}
+
+				#skews #jornal .column{
+					display: inline-block;				    
+				    width: 25%;
+				    text-align: center;
+				    margin: 0 1em 0 1em;
+				    height: 100%;
+				}
+
+				#jornal .column img{
+					width: 2.5em;
+				}
+
+				#jornal .column .title{
+					font-size: 1em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 0.8em;
+				}
+
+				#jornal .column .text{
+					font-size: 0.6em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-height: 400px) { /*Pixel 2 XL*/
+	@media screen and (max-height: 460px) {
+		@media screen and (min-width: 800px) {
+			@media screen and (max-width: 860px) {
+				#main_container #content{
+					text-align: center;
+				}
+
+				#main_container #img_content img {
+				    width: 150px;
+				    min-width: 150px;
+				    border: 3px solid rgba(41, 51, 71, 1);
+				}
+
+				#text_content{
+					width: 400px;
+				}
+
+				#text_content #hey{
+					margin-bottom: unset;
+				}
+
+				#text_content #hey p {
+				    font-size: 1.4em;
+				    text-align: left;
+				}
+
+				#text_content #under span {
+				    font-size: 0.8em;
+				    text-align: left;
+				}
+
+				#main_container #footer{
+					height: 40%;
+				}
+
+				#main_container #footer span:first-child{
+					display: block;
+					font-size: 0.6em;
+				}
+
+				#main_container #footer span img{
+					width: 2.5em;
+				}
+
+					/*ABOUT*/
+
+				#about #real_content{
+					margin: 0 5em 0 5em;
+					padding-block-start: 2em;
+				}
+
+				#about #title{
+					font-size: 1.5em;
+				}
+
+				#about #content{
+					font-size: 0.6em;
+				}
+
+				#about #content h2{	
+					font-weight: 100;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal{
+					padding: 30px 20px;
+					display: flex;
+    				justify-content: center;
+				}
+
+				#skews #jornal .column{
+					display: inline-block;				    
+				    width: 25%;
+				    text-align: center;
+				    margin: 0 1em 0 1em;
+				    height: 100%;
+				}
+
+				#jornal .column img{
+					width: 2.5em;
+				}
+
+				#jornal .column .title{
+					font-size: 1em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 0.8em;
+				}
+
+				#jornal .column .text{
+					font-size: 0.6em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-height: 300px) { /*iPhone 5/SE*/
+	@media screen and (max-height: 360px) {
+		@media screen and (min-width: 500px) {
+			@media screen and (max-width: 580px) {
+				#main_container #content{
+					text-align: center;
+				}
+
+				#main_container #img_content img {
+				    width: 100px;
+				    min-width: 100px;
+				    border: 3px solid rgba(41, 51, 71, 1);
+				}
+
+				#text_content{
+					width: 300px;
+				}
+
+				#text_content #hey{
+					margin-bottom: unset;
+				}
+
+				#text_content #hey p {
+				    font-size: 0.8em;
+				    text-align: left;
+				}
+
+				#text_content #under span {
+				    font-size: 0.6em;
+				    text-align: left;
+				}
+
+				#main_container #footer{
+					height: 40%;
+				}
+
+				#main_container #footer span:first-child{
+					display: block;
+					font-size: 0.6em;
+				}
+
+				#main_container #footer span img{
+					width: 2.5em;
+				}
+
+					/*ABOUT*/
+
+				#about #real_content{
+					margin: 0 5em 0 5em;
+					padding-block-start: 2em;
+				}
+
+				#about #title{
+					font-size: 1.5em;
+				}
+
+				#about #content{
+					font-size: 0.4em;
+				}
+
+				#about #content h2{	
+					font-weight: 100;
+				}
+
+					/*SKEWS*/
+
+				#skews #jornal{
+					padding: 30px 20px;
+					display: flex;
+    				justify-content: center;
+				}
+
+				#skews #jornal .column{
+					display: inline-block;				    
+				    width: 25%;
+				    text-align: center;
+				    margin: 0 1em 0 1em;
+				    height: 100%;
+				}
+
+				#jornal .column img{
+					width: 2.5em;
+				}
+
+				#jornal .column .title{
+					font-size: 1em;
+				}
+
+				#jornal .column .subtitle{
+					font-size: 0.8em;
+				}
+
+				#jornal .column .text{
+					font-size: 0.6em;
+				}
+			}
+		}
+	}
+}
