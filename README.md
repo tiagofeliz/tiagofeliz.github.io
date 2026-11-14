@@ -1,2 +1,2 @@
 # My resume
-[tiagofeliz.com](https://tiagofeliz.com/)
+[tiagofeliz.com](https://tiagofeliz.github.io/)

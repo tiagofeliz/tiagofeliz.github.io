@@ -1,31 +1,172 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt">
 <head>
-  <title>Tiago Feliz</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tiago Feliz — Senior Software Engineer</title>
+<style>
+:root{--bg:#f7f7f5;--surface:#fff;--text:#1c1f23;--muted:#5d646c;--line:#e2e2de;--accent:#2f6f73;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101214;--surface:#171a1d;--text:#e8e9ea;--muted:#9aa1a8;--line:#272b30;--accent:#6fb5b9;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101214;--surface:#171a1d;--text:#e8e9ea;--muted:#9aa1a8;--line:#272b30;--accent:#6fb5b9;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+html[lang=pt] [data-l=en],html[lang=en] [data-l=pt]{display:none}
+a{color:inherit;text-decoration-color:var(--line);text-underline-offset:3px}a:hover{color:var(--accent)}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:.9rem;color:var(--muted)}
+nav .links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav a{text-decoration:none}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--muted);font:inherit;font-size:.8rem;padding:4px 12px;cursor:pointer}
+html[lang=pt] .lang [data-b=pt],html[lang=en] .lang [data-b=en]{background:var(--accent);color:var(--bg)}
+header.hero{padding:72px 0 56px}
+.eyebrow{color:var(--accent);font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+h1{font-size:clamp(2.4rem,7vw,3.8rem);line-height:1.08;margin:.3em 0 .35em;letter-spacing:-.025em;font-weight:700}
+.lead{font-size:1.15rem;color:var(--muted);max-width:620px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;border:1px solid var(--line);text-decoration:none;font-size:.95rem;background:var(--surface)}
+.btn.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.btn.primary:hover{color:var(--bg);opacity:.9}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 28px;font-weight:600}
+.job{display:grid;grid-template-columns:170px 1fr;gap:8px 32px;margin-bottom:36px}
+.job .when{color:var(--muted);font-size:.88rem;padding-top:3px}
+.job h3{margin:0;font-size:1.1rem}
+.job .co{color:var(--accent);font-size:.95rem;margin-bottom:6px}
+.job p{margin:.3em 0;color:var(--muted)}
+.role{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.tags span{font-size:.8rem;padding:3px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1rem}.card p{margin:0;color:var(--muted);font-size:.92rem}
+.card .tags{margin-top:0}
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+@media(max-width:640px){.job{grid-template-columns:1fr}header.hero{padding:48px 0 40px}}
+</style>
 </head>
-
 <body>
-  <main>
-    <section class="home">
-      <div class="hello-message">
-        <span>Hello,</span>
-        <span>I'am <a class="name">Tiago Feliz</a></span>
-        <span>Software engineer and coffee lover <img src="./assets/img/cup.svg"></span>
-        <span>
-          <a class="link github" href="https://github.com/tiagofeliz" target="_blank"><i class="fab fa-github"></i></a>
-          <a class="link linkedin" href="https://www.linkedin.com/in/tiagofeliz/?locale=en_US" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </span>
-      </div>
-      <div class="image">
-        <img src="./assets/img/principal.jpg">
-      </div>
-    </section>
-  </main>
-</body>
+<div class="wrap">
+<nav>
+  <strong style="color:var(--text)">Tiago Feliz</strong>
+  <div class="links">
+    <a href="#sobre"><span data-l="pt">Sobre</span><span data-l="en">About</span></a>
+    <a href="#experiencia"><span data-l="pt">Experiência</span><span data-l="en">Experience</span></a>
+    <a href="#formacao"><span data-l="pt">Formação</span><span data-l="en">Education</span></a>
+    <a href="#contato"><span data-l="pt">Contato</span><span data-l="en">Contact</span></a>
+    <span class="lang"><button data-b="pt" onclick="setLang('pt')">PT</button><button data-b="en" onclick="setLang('en')">EN</button></span>
+  </div>
+</nav>
 
+<header class="hero">
+  <div class="eyebrow"><span data-l="pt">Engenheiro de Software Sênior</span><span data-l="en">Senior Software Engineer</span></div>
+  <h1>Tiago Feliz</h1>
+  <p class="lead">
+    <span data-l="pt">Desenvolvo aplicações web e APIs REST com foco em backend, sistemas financeiros e arquitetura na nuvem. São Paulo, Brasil.</span>
+    <span data-l="en">I build web applications and REST APIs with a focus on backend, financial systems and cloud architecture. São Paulo, Brazil.</span>
+  </p>
+  <div class="cta">
+    <a class="btn primary" href="mailto:tiagofelizoliveira@gmail.com"><span data-l="pt">Entrar em contato</span><span data-l="en">Get in touch</span></a>
+    <a class="btn" href="https://www.linkedin.com/in/tiagofeliz" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</header>
+
+<section id="sobre">
+  <h2><span data-l="pt">Sobre</span><span data-l="en">About</span></h2>
+  <p>
+    <span data-l="pt">Desenvolvedor de software com experiência em aplicações web e APIs REST usando diversas linguagens (Java, PHP, JavaScript, SQL, NoSQL) e frameworks (Spring, Laravel, CodeIgniter, Vue.js). Atualmente na Hotmart, trabalho com processos financeiros, integrações com gateways de pagamento e sistemas assíncronos de comissões.</span>
+    <span data-l="en">Software developer experienced in web applications and REST APIs using multiple languages (Java, PHP, JavaScript, SQL, NoSQL) and frameworks (Spring, Laravel, CodeIgniter, Vue.js). At Hotmart, I work on financial processes, payment gateway integrations and asynchronous commission systems.</span>
+  </p>
+  <div class="grid" style="margin-top:28px">
+    <div class="card"><h3>Backend</h3><div class="tags"><span>Java</span><span>Kotlin</span><span>Spring Boot</span><span>PHP</span><span>Laravel</span><span>CodeIgniter</span></div></div>
+    <div class="card"><h3>Cloud &amp; Dados</h3><div class="tags"><span>AWS (ECS, EKS, S3)</span><span>SQS · SNS · Kinesis</span><span>MySQL</span><span>MongoDB</span><span>DynamoDB</span></div></div>
+    <div class="card"><h3>Frontend</h3><div class="tags"><span>JavaScript</span><span>Vue.js</span><span>Bootstrap</span></div></div>
+    <div class="card"><h3><span data-l="pt">Idiomas</span><span data-l="en">Languages</span></h3><p><span data-l="pt">Português (nativo) · Inglês (profissional) · Espanhol (limitado)</span><span data-l="en">Portuguese (native) · English (professional) · Spanish (limited)</span></p></div>
+  </div>
+</section>
+
+<section id="experiencia">
+  <h2><span data-l="pt">Experiência</span><span data-l="en">Experience</span></h2>
+
+  <div class="job">
+    <div class="when"><span data-l="pt">Ago 2019 – Presente</span><span data-l="en">Aug 2019 – Present</span><br>Belo Horizonte, MG</div>
+    <div>
+      <h3>Hotmart</h3>
+      <div class="co"><span data-l="pt">Plataforma para criar e vender produtos digitais</span><span data-l="en">Platform to create and sell digital products</span></div>
+      <div class="role">
+        <strong><span data-l="pt">Desenvolvedor Backend Sênior</span><span data-l="en">Senior Backend Developer</span></strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Abr 2023 – Presente</span><span data-l="en">Apr 2023 – Present</span></span>
+        <p><span data-l="pt">Desenvolvimento e manutenção de processos financeiros, integração com gateways de pagamento e um sistema assíncrono de geração de comissões.</span><span data-l="en">Developing and maintaining financial processes, integrating with payment gateways and building an asynchronous commission generation system.</span></p>
+        <div class="tags"><span>Java</span><span>Kotlin</span><span>Spring Boot</span><span>MySQL</span><span>MongoDB</span><span>DynamoDB</span><span>ECS</span><span>EKS</span><span>S3</span><span>SQS</span><span>SNS</span><span>Kinesis</span></div>
+      </div>
+      <div class="role">
+        <strong><span data-l="pt">Desenvolvedor Backend</span><span data-l="en">Backend Developer</span></strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Ago 2019 – Mai 2023</span><span data-l="en">Aug 2019 – May 2023</span></span>
+        <p><span data-l="pt">Ferramentas e serviços de backoffice, integrações com APIs de terceiros, análise e ajustes de sistemas e consultas SQL, e desenho e implementação de arquitetura na AWS.</span><span data-l="en">Backoffice tools and services, third-party API integrations, system and query analysis and tuning, and architecture design and implementation on AWS.</span></p>
+        <div class="tags"><span>Java</span><span>Kotlin</span><span>Spring Boot</span><span>MySQL</span><span>AWS</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="when"><span data-l="pt">Mar 2019 – Ago 2019</span><span data-l="en">Mar 2019 – Aug 2019</span><br>Belo Horizonte, MG</div>
+    <div>
+      <h3>Solusoft Informática</h3>
+      <div class="co">Full Stack Developer</div>
+      <p><span data-l="pt">Desenvolvimento e manutenção de aplicações web.</span><span data-l="en">Development and maintenance of web applications.</span></p>
+      <div class="tags"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>Vue.js</span><span>AWS</span><span>Docker</span></div>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="when"><span data-l="pt">Fev 2017 – Set 2019</span><span data-l="en">Feb 2017 – Sep 2019</span><br>Guanambi, BA · Remoto</div>
+    <div>
+      <h3>WM Saúde — Gestão e Tecnologia</h3>
+      <div class="role" style="border:0;margin-top:6px;padding:0">
+        <strong>Full Stack Developer (<span data-l="pt">remoto</span><span data-l="en">remote</span>)</strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Mar – Set 2019</span><span data-l="en">Mar – Sep 2019</span></span>
+        <p><span data-l="pt">Desenvolvimento e manutenção de aplicações web de forma remota.</span><span data-l="en">Remote development and maintenance of web applications.</span></p>
+        <div class="tags"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>JavaScript</span><span>Vue.js</span></div>
+      </div>
+      <div class="role">
+        <strong><span data-l="pt">Gerente de Desenvolvimento de Sistemas</span><span data-l="en">Systems Development Manager</span></strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Jun 2018 – Mar 2019</span><span data-l="en">Jun 2018 – Mar 2019</span></span>
+        <p><span data-l="pt">Liderança da equipe de desenvolvimento: planejamento e execução de projetos, avaliação de demandas da gestão, monitoramento e encerramento de entregas.</span><span data-l="en">Led the development team: planning and executing projects, evaluating management demands, monitoring and closing deliveries.</span></p>
+      </div>
+      <div class="role">
+        <strong><span data-l="pt">Desenvolvedor Júnior</span><span data-l="en">Junior Developer</span></strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Jun 2017 – Jun 2018</span><span data-l="en">Jun 2017 – Jun 2018</span></span>
+        <p><span data-l="pt">Sistemas web com levantamento de requisitos, documentação, UML, modelagem de banco, testes e homologação.</span><span data-l="en">Web systems including requirements gathering, documentation, UML, database design, testing and acceptance.</span></p>
+        <div class="tags"><span>PHP</span><span>CodeIgniter</span><span>Bootstrap</span><span>JavaScript</span><span>MySQL</span><span>Git</span></div>
+      </div>
+      <div class="role">
+        <strong>Trainee</strong> <span style="color:var(--muted);font-size:.85rem">· <span data-l="pt">Fev – Jun 2017</span><span data-l="en">Feb – Jun 2017</span></span>
+        <p><span data-l="pt">Apoio ao desenvolvimento e manutenção de funcionalidades em sistemas PHP.</span><span data-l="en">Assisted in developing and maintaining features in PHP systems.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="formacao">
+  <h2><span data-l="pt">Formação &amp; Publicação</span><span data-l="en">Education &amp; Publication</span></h2>
+  <div class="grid">
+    <div class="card"><h3><span data-l="pt">Análise e Desenvolvimento de Sistemas</span><span data-l="en">Systems Analysis and Development</span></h3><p>IFBA · 2014 – 2017</p></div>
+    <div class="card"><h3><span data-l="pt">Técnico em Agroindústria</span><span data-l="en">Agroindustry Technician</span></h3><p>IFBA · 2011 – 2013</p></div>
+    <div class="card"><h3><span data-l="pt">Publicação</span><span data-l="en">Publication</span></h3><p><span data-l="pt">Desenvolvimento do sistema de armazenamento de informação rural do território Sertão Produtivo</span><span data-l="en">Development of the rural information storage system for the Sertão Produtivo territory</span></p></div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2><span data-l="pt">Contato</span><span data-l="en">Contact</span></h2>
+  <p style="font-size:1.1rem;margin-top:0"><span data-l="pt">Vamos conversar? Me escreva ou me encontre no LinkedIn.</span><span data-l="en">Let’s talk! Email me or find me on LinkedIn.</span></p>
+  <div class="cta" style="margin-top:16px">
+    <a class="btn primary" href="mailto:tiagofelizoliveira@gmail.com">tiagofelizoliveira@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/tiagofeliz" target="_blank" rel="noopener">linkedin.com/in/tiagofeliz</a>
+  </div>
+</section>
+
+<footer>© Tiago Feliz</footer>
+</div>
+<script>
+function setLang(l){document.documentElement.lang=l;try{localStorage.setItem('lang',l)}catch(e){}}
+try{var s=localStorage.getItem('lang');if(s==='pt'||s==='en')document.documentElement.lang=s}catch(e){}
+</script>
+</body>
 </html>
